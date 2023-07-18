@@ -6,13 +6,6 @@ class Database{
     private $username = "root";
     private $password = "";
     public $conn;
-
-    // private $host = "sql210.infinityfree.com";
-    // private $db_name = "if0_34599066_tmt_test";
-    // private $username = "if0_34599066";
-    // private $password = "k7IVfFoUMMwa";
-    // public $conn;
-
  
     // get the database connection
     public function getConnection(){
